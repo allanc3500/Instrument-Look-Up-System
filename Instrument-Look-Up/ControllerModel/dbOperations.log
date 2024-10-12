@@ -1,0 +1,69 @@
+11/19/23, 11:12 PM
+CREATE TABLE Test2 (Make CHAR(20), Size CHAR(20), Weight DOUBLE, Engine DOUBLE)
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Hyundai fullSized 2852.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Chevy compact 1586.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Chevy fullSized 2502.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Hyundai intermediate 2188.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Chevy compact 1931.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Chevy fullSized 3832.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Nissan compact 1575.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Nissan fullSized 3687.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Chevy intermediate 2069.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Nissan fullSized 2704.0 100.0 to the table
+SELECT * FROM Test2
+SELECT * FROM Test2 WHERE Make = 'Toyota' OR Make = 'Chevy'
+SELECT * FROM Test2 WHERE Weight > 2500
+DROP TABLE Test2
+11/19/23, 11:13 PM
+CREATE TABLE Test2 (Make CHAR(20), Size CHAR(20), Weight DOUBLE, Engine DOUBLE)
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Chevy fullSized 3439.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Hyundai intermediate 2449.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Nissan intermediate 2438.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Nissan compact 1994.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Ford compact 1899.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Toyota fullSized 3361.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Nissan fullSized 3182.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Hyundai compact 1703.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Hyundai fullSized 3168.0 100.0 to the table
+INSERT INTO Test2(Make,Size,Weight,Engine) VALUES (?, ?, ?, ?)
+Inserted values  Nissan compact 1872.0 100.0 to the table
+SELECT * FROM Test2
+SELECT * FROM Test2 WHERE Make = 'Toyota' OR Make = 'Chevy'
+SELECT * FROM Test2 WHERE Weight > 2500
+DROP TABLE Test2
+11/19/23, 11:30 PM
+11/19/23, 11:33 PM
+11/19/23, 11:36 PM
+11/19/23, 11:39 PM
+11/20/23, 10:34 AM
+SELECT * FROM Instruments
+11/20/23, 10:35 AM
+SELECT * FROM Locations
+11/20/23, 10:35 AM
+SELECT * FROM Inventory
+11/20/23, 10:36 AM
+SELECT * FROM Inventory
+11/20/23, 1:58 PM
+SELECT * FROM Inventory
+11/20/23, 1:59 PM
+SELECT * FROM Inventory
+11/20/23, 2:31 PM
